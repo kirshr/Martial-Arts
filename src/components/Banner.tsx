@@ -13,7 +13,7 @@ const Banner: React.FC<BannerProps> = ({subtitle}) => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{delay: 1, duration: 1 }}
             >
-                <img src="../../public/KpFLogoMain.svg" alt="Main Logo" />
+                <img src="/DragonLogo.svg" alt="Main Logo" />
                 <h2>{subtitle}</h2>
             </motion.div>
         </section>

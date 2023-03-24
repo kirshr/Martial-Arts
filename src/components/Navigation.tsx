@@ -24,7 +24,7 @@ const Navigation: React.FC<NavigationProps> = ({ isMobile = false }) => {
                     animate={{opacity: 1}}
                     transition={{duration: 2}}
                 >
-                    <a href="/"><img src="../../public/KpFLogoMain.svg" width="200" alt="" /></a>
+                    <a href="/"><img src="/DragonLogo.svg" width="100" alt="" /></a>
                     <ul className={`menu-list ${isOpen ? "open" : ""}`}>
                         <li><a href="/">Home</a></li>
                         <li><a href="/#about">About Us</a></li>
