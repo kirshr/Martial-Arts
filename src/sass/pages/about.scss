@@ -1,0 +1,51 @@
+.about {
+    height: auto;
+    background-image: url("/public/KPFAboutBg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem 0;
+    position: relative;
+    .inner-container {
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .about {
+        height: 80vh;
+    }
+    .about .inner-container {
+        display: flex;
+        justify-content: flex-end;
+        z-index: 10;
+        img {
+            position: absolute;
+            top: 21%;
+            width: 40rem;
+            max-width: 60rem;
+            left: 8.5%;
+        }
+        div {
+            flex-basis: 55%;
+        }
+    }
+}
+@media (min-width: 1400px) {
+    .about {
+        height: 80vh;
+    }
+    .about .inner-container {
+        img {
+            width: 60rem;
+            top: 22%;
+            left: 9.6%;
+        }
+        div {
+            padding-top: 5rem;
+            flex-basis: 55%;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.inner-container {
+    padding: 3%;
+}
+@media (min-width: 1400px) {
+    .inner-container {
+        padding: 0;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,26 @@
+.action-banner {
+    position: relative;
+    background-color: #A30000;
+    height: 25vh;
+    padding: 5rem;
+    .inner-container {
+        display: flex;
+        gap: 10rem;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    img {
+        position: absolute;
+        bottom: 0rem;
+        width: 25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    h4 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        z-index: 99;
+    }
+}

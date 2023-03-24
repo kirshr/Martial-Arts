@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1072.5">
+  <defs>
+    <style>
+      .about-bg-1 {
+        fill: #a30000;
+      }
+
+      .about-bg-2 {
+        fill: #121212;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="about-bg-2" width="1920" height="1072.5"/>
+      <polygon class="about-bg-1" points="960 0 0 1072.5 0 0 960 0"/>
+    </g>
+  </g>
+</svg>
