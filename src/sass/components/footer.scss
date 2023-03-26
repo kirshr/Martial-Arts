@@ -7,10 +7,12 @@ footer {
     border-top: 2px solid #A00000;
     a {
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding: 5rem 0;
         img {
-            width: 30rem;
+            width: 20rem;
         }
     }
     .map-container {

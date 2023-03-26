@@ -1,8 +1,4 @@
 header {
-    position: relative;
-}
-
-nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -10,6 +6,9 @@ nav {
     background-color: #121212;
     padding: 0.5rem 0;
     z-index: 99999;
+}
+
+nav {
     .inner-container {
         display: flex;
         justify-content: space-between;
@@ -24,7 +23,7 @@ nav {
     text-align: center;
     height: 0;
     overflow: hidden;
-    top: 9rem;
+    top: 16rem;
     left: 0;
     background-color: #121212;
     li {
@@ -64,6 +63,11 @@ nav {
     }
 }
 
+@media (min-width: 700px) {
+    .menu-list {
+        top: 16rem;
+    }
+}
 @media (min-width: 1000px) {
     nav {
         align-items: center;
