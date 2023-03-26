@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import "../sass/components/nav.scss"
 import { CgMenuRound } from 'react-icons/cg'
-import {Outlet} from 'react-router-dom'
 import { AiOutlineCloseCircle } from "react-icons/ai"
 import { motion } from "framer-motion"
 interface NavigationProps {
@@ -33,7 +32,7 @@ const Navigation: React.FC<NavigationProps> = ({ isMobile = false }) => {
                     </ul>
                     {
                     !isOpen ?
-                        <button className='menu-icon' onClick={toggleNav}>
+                        <button className='menu-icon' onClick={toggleNav} name="Menu">
                         <CgMenuRound fill='#f7f7f7' />
                         </button> :
                         <button className='menu-icon close' onClick={toggleNav}>
@@ -42,7 +41,6 @@ const Navigation: React.FC<NavigationProps> = ({ isMobile = false }) => {
                     }
                 </motion.div>
             </nav>
-            <Outlet/>
         </header>
       
     )

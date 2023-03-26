@@ -4,14 +4,14 @@ import JrDragons from './programs/JrDragons';
 import SrDragons from './programs/SrDragons';
 import BushidoWarriors from './programs/BushidoWarriors';
 import { Routes, Route } from "react-router-dom";
-import Navigation from './components/Navigation'
+import Layout from './Layouts/RootLayout';
 function App() {
 
 
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Navigation />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/programs/1" element={<JrNinjas />} />
           <Route path="/programs/2" element={<JrDragons />} />
