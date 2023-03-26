@@ -19,7 +19,7 @@ const About: React.FC<AboutProps> = ({ }) => {
                     Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
                 </motion.div>
-                <motion.img src="../../public/KPFAboutImg.svg" alt=""
+                <motion.img src="/KPFAboutImg.svg" alt=""
                   initial={{opacity: 0, scale: 0.95}} 
                   whileInView={{opacity: 1, scale: 1}}
                   transition={{duration: 2}}
