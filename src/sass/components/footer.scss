@@ -15,13 +15,6 @@ footer {
             width: 20rem;
         }
     }
-    .map-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        width: 100vw;
-    }
     .social-media {
         display: flex;
         gap: 2rem;
@@ -35,7 +28,11 @@ footer {
     }
 }
 
+#map {
+    width: 100vw;
+    height: 300px;
 
+}
 
 @media (min-width: 1400px) {
     footer {
